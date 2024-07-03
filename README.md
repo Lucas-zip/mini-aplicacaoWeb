@@ -5,7 +5,9 @@
 #### Membros da Equipe: 
 
 Lucas Gabriel Simões Marinho - 06009936
+<br>
 Julia Scarpi Campos - 06006846
+<br>
 Luna Ferreira de Mattos - 0600983
 <!-- OBJETIVO OBRIGATÓRIO: TERMINAR DE PREENCHER ESTA DOCUMENTAÇÃO -->
 
