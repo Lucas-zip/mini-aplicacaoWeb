@@ -4,7 +4,9 @@
 
 #### Membros da Equipe: 
 
-COLOCAR AS MATRÍCULAS E NOMES DE CADA INTEGRANTE AQUI.
+Lucas Gabriel Simões Marinho - 06009936
+Julia Scarpi Campos - 06006846
+Luna Ferreira de Mattos - 0600983
 <!-- OBJETIVO OBRIGATÓRIO: TERMINAR DE PREENCHER ESTA DOCUMENTAÇÃO -->
 
 ### Sobre o projeto 
