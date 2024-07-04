@@ -88,7 +88,7 @@ Se houver um erro ao executar o comando SQL, uma mensagem de erro é exibida.
 
 - Pré-requisitos:
 
-Docker e Docker Compose instalados.
+Docker e Docker Compose instalados(podem facilmente ser instalados com o auxílio do chatGPT).
 Um banco de dados PostgreSQL configurado.
 
 - Passos para Executar:
@@ -96,10 +96,26 @@ Um banco de dados PostgreSQL configurado.
 Clone este repositório.
 Navegue até o diretório do projeto.
 Configure os parâmetros do banco de dados no arquivo app.py.
-Execute docker-compose up para iniciar a aplicação e o banco de dados.
+Execute "docker-compose up --build -d" para iniciar a aplicação e o banco de dados.
+Caso de algum problema com o comando anterior, rode "docker-compose down" e em seguida o compose up novamente.
+
 
 - Acessando a Aplicação:
 
 Abra um navegador web e navegue para http://localhost:5000.
 Insira comandos SQL no formulário e veja os resultados ou erros na mesma página.
+
+- Acessando o Banco de Dados:
+
+Execute "docker-compose up --build -d" no terminal.
+Acesse http://localhost:80.
+Faça login usando "admin@pgadmin.com" e usando a senha "123456".
+Crie um novo servidor. 
+Em seguida siga essas instruções:
+
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: pdv
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
 <!-- OBJETIVO OBRIGATÓRIO: TERMINAR DE PREENCHER ESTA DOCUMENTAÇÃO -->
